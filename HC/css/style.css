@@ -395,7 +395,7 @@ p {
 /*------------wrapper------------*/
 .wrapper {
   background-image: url("../image/w.jpg");
-  height: 80vh;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -1163,4 +1163,31 @@ footer .content {
   .offer2.wrapper {
     height: 170vh;
   }
+}
+
+
+.even-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.image-even{
+  border-radius: 5rem;
+}
+.btn-reserver{
+  border-radius: 50px;
+  height: 30px;
+  line-height: 30px;
+  color: #CC8C18;
+  box-shadow: 1px 1px 5px ;
+  margin-top: 40px;
+  text-align: center;
+  /* width: 210px; */
+}
+.login{
+  margin-right: 20px;
+}
+.hom{
+  margin: auto;
+  width: 210px;
+  color: #fff;
 }
